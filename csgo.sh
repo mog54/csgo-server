@@ -18,5 +18,6 @@ rm steamcmd_linux.tar.gz
 
 ./steamcmd.sh +login anonymous +force_install_dir /home/p/serverfiles +app_update 740 validate +quit
 
+cd /home/p
 wget https://raw.githubusercontent.com/mog54/csgo-server/master/hlds.sh 
 chmod +x hlds.sh
