@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# This file is part of Dedipanel project
-#
-# (c) 2010-2015 Dedipanel <http://www.dedicated-panel.net>
-#
-# For the full copyright and license information, please view the LICENSE
-# file that was distributed with this source code.
-
 SCREEN_NAME="dp-9013315a368dbc2b9cc1"
 STATUS=`ps aux | grep SCREEN | grep "$SCREEN_NAME " | wc -l`
 
