@@ -16,4 +16,7 @@ cd /home/ogpbot/
 wget https://github.com/OpenGamePanel/OGP-Agent-Linux/archive/master.zip
 unzip master.zip
 cd OGP-Agent-Linux-master/
-sudo bash ./install.sh
+
+su - ogpbot
+
+echo "sudo bash ./install.sh"
