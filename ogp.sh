@@ -8,7 +8,7 @@ apt-get install libc6-i386 lib32gcc1 -y
 apt-get install libhttp-daemon-perl -y
 apt-get install libarchive-extract-perl -y
 adduser ogpbot
-sudo usermod -a -G sudo ogpbot
+usermod -a -G sudo ogpbot
 
 sudo -u ogpbot bash << EOF
 
