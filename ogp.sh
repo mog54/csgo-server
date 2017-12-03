@@ -12,6 +12,7 @@ sudo usermod -a -G sudo ogpbot
 
 sudo -u ogpbot bash << EOF
 
+cd /home/ogpbot/
 wget https://github.com/OpenGamePanel/OGP-Agent-Linux/archive/master.zip
 unzip master.zip
 cd OGP-Agent-Linux-master/
