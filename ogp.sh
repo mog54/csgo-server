@@ -1,8 +1,10 @@
 #!/bin/bash
 
+dpkg --add-architecture i386
 apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
+apt-get install lib32gcc1 libstdc++6 libstdc++6:i386 -y
 apt-get install libxml-parser-perl libpath-class-perl perl-modules screen rsync sudo e2fsprogs unzip subversion pure-ftpd libarchive-zip-perl libc6 libgcc1 git curl -y
 apt-get install libc6-i386 lib32gcc1 -y
 apt-get install libhttp-daemon-perl -y
